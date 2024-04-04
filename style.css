@@ -36,8 +36,10 @@ label {
     margin-top: 20px;
 }
 .output {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-top: 10px;
+    color: red;
+    font-weight: bold;
 }
 
 /* Media query for mobile devices */
