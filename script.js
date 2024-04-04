@@ -18,3 +18,9 @@ function calculateTip() {
         errorOutput.textContent = 'Please enter a valid number for the bill total.';
     }
 }
+
+billTotal.addEventListener('input', calculateTip);
+tipSlider.addEventListener('input', function() {
+    tipPercent.textContent = tipSlider.value + '%';
+    calculateTip();
+});
