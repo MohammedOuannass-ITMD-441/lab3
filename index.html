@@ -11,9 +11,8 @@
             <label for="billTotal">Bill Total</label>
             <input type="number" id="billTotal" placeholder="Enter bill total" min="0" required oninput="">
 
-            <label for="tipSlider">Tip Percentage (%)</label>
+            <label for="tipSlider">Tip Percentage: <span id="tipPercent">15%</span></label> 
             <input type="range" id="tipSlider" min="0" max="100" value="15" step="1">
-            <span id="tipPercent">15%</span>
 
             <label for="tipAmount">Tip Amount ($)</label>
             <input type="text" id="tipAmount" disabled>
