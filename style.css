@@ -58,4 +58,8 @@ label {
     .output {
         font-size: 1em;
     }
+    #tipAmount,
+    #totalAmount {
+        color: black
+    }
 }
